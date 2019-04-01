@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand bg-primary px-3" routerLink="/">Acme Hospital</a>
+  <div class="container-fluid">
+    <ul class="navbar-nav flex-row float-left">
+      <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        <a class="nav-link" routerLink="">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" routerLinkActive="active" *ngIf="auth.user$ | async">
+        <a class="nav-link" routerLink="/admin/patients">Patients</a>
+      </li>
+    </ul>
+    <div class="flex-row float-right">
+      <span class="navbar-text px-2" *ngIf="auth.user$ | async as user">
+        {{user.email}}
+      </span>
+      <button type="button" class="btn btn-primary" *ngIf="(auth.user$ | async) != null" (click)="logout()">Logout</button>
+      <button type="button" class="btn btn-primary" routerLink="/login" *ngIf="(auth.user$ | async) == null">Login</button>
+    </div>
+  </div>
+</nav>

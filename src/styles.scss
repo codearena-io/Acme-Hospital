@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap-css-only/css/bootstrap.min.css';
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body
+{
+  margin-top:100px;
+}
+
+.button-row button,
+.button-row a {
+  margin-right: 8px;
+}
+
