@@ -18,7 +18,7 @@ This project deals with the scenario of keeping fictional patient data and their
 
 3. Run `npm install`
 
-4. Run 'ng serve'. Navigate to http://localhost:4200/.
+4. Run `ng serve`. Navigate to http://localhost:4200/.
 
 ## Live App
 
