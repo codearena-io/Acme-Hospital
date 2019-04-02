@@ -14,7 +14,7 @@ This project deals with the scenario of keeping fictional patient data and their
 
 1. You need to create a project of your own in Firebase. 
 
-2. Then replace the Firebase settings defined in /src/environments with the settings of your project.
+2. Then replace the Firebase settings defined in `/src/environments` with the settings of your project.
 
 3. Run `npm install`
 
