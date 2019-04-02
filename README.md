@@ -1,6 +1,6 @@
 # Acme-Hospital
 
-This project deals with the scenario of keeping fictional patient data and their examination records in a hospital. The technologies used are: Angular in version 7, Angular Material components and Google’s Cloud Firestore as repository. Node.js is used as the dev server. The development process is presented in the blog's 4-part walkthrough:
+This project deals with the scenario of keeping fictional patient data and their examination records in a hospital. The technologies used are: Angular in version 7, Angular Material Design components and Google’s Cloud Firestore as repository. Node.js is used as the dev server. The development process is presented in the blog's 4-part walkthrough:
 
 * [Build a CRUD Application using Angular 7, Cloud Firestore and Material Design Components - Part 1](https://codearena.io/blog/posts/build-crud-application-using-angular-7-cloud-firestore-material-design-components-part-1)
 
